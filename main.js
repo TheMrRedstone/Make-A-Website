@@ -1,6 +1,7 @@
 function createdraggablebox() {
     var znum = 0;
     znum += 1;
+    console.log(znum);
     var box = document.createElement("div");
     var containerdoc = document.getElementById("Container");
     box.style.zindex = znum;
