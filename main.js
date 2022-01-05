@@ -1,8 +1,11 @@
 function createdraggablebox() {
+    var znum = 0;
+    znum += 1;
     var box = document.createElement("div");
     var containerdoc = document.getElementById("Container");
+    box.style.zindex = znum;
     box.style = "width: 50px; height: 50px; background-color: #ccc; border: solid 2px; cursor: move;";
-    document.body.appendChild(box);
+    containerdoc.appendChild(box);
     setTranslate(containerdoc.x, containerdoc.y);
     
     var dragItem = box;
