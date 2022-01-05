@@ -1,5 +1,5 @@
+var znum = 0;
 function createdraggablebox() {
-    var znum = 0;
     znum++;
     console.log(znum);
     var box = document.createElement("div");
